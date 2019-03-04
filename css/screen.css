@@ -10,7 +10,6 @@ line-height: 1.5;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 color: #111;
 padding: 24px 24px 0;
-
 }
 
 /*
@@ -35,4 +34,94 @@ text-shadow: none;
 img {
     max-width:100%;
     vertical-align: top;
+}
+
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+font-family: "Times New Roman",serif;
+font-size: 36px;
+font-weight: normal;
+line-height: 40px;
+margin: 0 0 48px;
+}
+
+h2 {
+font-size: 23px;
+line-height: 32px;
+margin:0 0 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin:0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure,
+blockquote {
+    margin: 0 0 24px;
+}
+
+ul,
+ol,
+blockquote {
+padding-left: 24px;
+}
+
+li ul,
+li ol{
+margin: 0;
+}
+
+blockquote {
+font-family: "Times New Roman",serif;
+font-style: italic;
+font-size: 23px;
+line-height: 32px;
+
+}
+
+figcaption {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    colot:Grey;
+}
+
+hr {
+
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+
 }
