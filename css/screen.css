@@ -8,7 +8,9 @@ html {
 font-size: 16px;
 line-height: 1.5;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-color: #111
+color: #111;
+padding: 24px 24px 0;
+
 }
 
 /*
@@ -18,14 +20,19 @@ color: #111
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: red;
-    color:white;
-    text-shadow: none;
-}
-
 ::selection {
 background: red;
 color:white;
 text-shadow: none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+    max-width:100%;
+    vertical-align: top;
 }
